@@ -63,7 +63,7 @@
                 </configuration>
             </plugin>
         </plugins>
-        <finalName>JPA-Mapping</finalName>
+        <finalName>crud-JPA-Mapping</finalName>
     </build>
 
 </project>

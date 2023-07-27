@@ -38,7 +38,7 @@ public class ProductService {
 
         public  String deleteProduct(int id) {
 
-    productRepo.deleteById(id);
+        productRepo.deleteById(id);
 
         return "warning !!! product deleted !!" + id ;
         }
@@ -51,13 +51,9 @@ public class ProductService {
            existingProduct.setQuantity(productEntity.getQuantity());
            existingProduct.setPrice(productEntity.getPrice());
        }
+
     return productRepo.save(existingProduct) ;
 
-
-
         }
-
-
-
 
 }
